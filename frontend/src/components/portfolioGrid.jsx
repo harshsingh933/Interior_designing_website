@@ -1,5 +1,5 @@
 import React from 'react';
-// import './portfolioGrid.css';
+
 
 const PortfolioGrid = ({ projects }) => {
   return (

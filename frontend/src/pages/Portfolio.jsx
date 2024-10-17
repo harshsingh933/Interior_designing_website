@@ -1,5 +1,4 @@
 import React from 'react';
-//import './portfolio.css';
 import PortfolioGrid from '../components/PortfolioGrid';
 
 const Portfolio = () => {
