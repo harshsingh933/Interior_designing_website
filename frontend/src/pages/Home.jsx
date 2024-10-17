@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import ServiceCards from '../components/ServiceCards';
 //import Testimonials from '../components/Testimonials';
-import PortfolioGrid from '../components/PortfolioGrid';
+//import PortfolioGrid from '../components/PortfolioGrid'; <PortfolioGrid projects={projects} />
 import { Helmet } from 'react-helmet-async';
 const Home = () => {
   const services = [
@@ -58,7 +58,7 @@ const Home = () => {
       <Hero />
       <ServiceCards services={services} />
      
-      <PortfolioGrid projects={projects} />
+      
     </>
   );
 };

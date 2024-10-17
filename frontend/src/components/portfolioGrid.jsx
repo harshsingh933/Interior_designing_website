@@ -52,7 +52,7 @@ const hoverEffect = `
 
 // Add hover effect to styles
 const styleSheet = document.createElement("style");
-styleSheet.type = "text/css";
+//styleSheet.type = "text/css";
 styleSheet.innerText = hoverEffect;
 document.head.appendChild(styleSheet);
 
