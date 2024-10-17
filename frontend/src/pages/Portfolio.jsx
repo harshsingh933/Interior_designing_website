@@ -1,5 +1,5 @@
 import React from 'react';
-import PortfolioGrid from '../components/PortfolioGrid';
+//import PortfolioGrid from '../components/PortfolioGrid';  <PortfolioGrid projects={projects} />
 
 const Portfolio = () => {
   const projects = [
@@ -11,7 +11,9 @@ const Portfolio = () => {
   return (
     <section className="portfolio">
       <h1>Our Portfolio</h1>
-      <PortfolioGrid projects={projects} />
+      
+
+
     </section>
   );
 };
