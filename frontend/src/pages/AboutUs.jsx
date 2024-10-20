@@ -40,7 +40,7 @@ const AboutUs = () => {
         </p>
 
 
-        <Link to="/team" style={styles.teamLink}>Meet Company Fonders</Link>
+        <Link to="/team" style={styles.teamLink}>Meet Company Founders</Link>
 
       </div>
       <aside style={styles.sidebar}>
